@@ -15,10 +15,10 @@ def executar_query():
         return "A consulta não foi fornecida", 400
 
     conn = mysql.connector.connect(
-        host="ezsoft.com.br",
-        user="ezsoft_carteiras",
-        password="Ng23228991%",
-        database="ezsoft_carteiras"
+        host="xxxxxxxxxxxr",
+        user="xxxxxxxxxxxx",
+        password="xxxxxxxxx',
+        database="xxxxxxxxxx"
     )
     cursor = conn.cursor()
     cursor.execute(query)
